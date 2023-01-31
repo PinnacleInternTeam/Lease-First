@@ -25,7 +25,7 @@ router.post(
     }
     //assigning the data from body
     let data = req.body;
-
+console.log(req.body)
     try {
       // Assigning the Data To User Model as The data is already Structured
       user = new User(data);
